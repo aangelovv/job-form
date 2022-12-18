@@ -88,6 +88,9 @@ const JobForm = (props) => {
       photo: enteredPicture,
       description: enteredDescription,
     };
+
+    props.onAddData(data);
+
     resetNameInput();
     resetEmailInput();
     resetExpInput();
