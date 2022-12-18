@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Job form application
+
+Before running the scripts, run npm install in the main folder /job-form.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
