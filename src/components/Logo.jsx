@@ -2,6 +2,10 @@ import logo from "../images/nex-gen-logo.jpg";
 import christmasHat from "../images/christmas-hat.png";
 import christmasLogo from "../images/merry-christmas.png";
 
+/**
+ * Logo - component for rendering the NexGen logo and description
+ * @returns {jsx}
+ */
 const Logo = () => {
   return (
     <div className="logo">

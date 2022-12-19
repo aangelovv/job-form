@@ -1,5 +1,10 @@
 import useInput from "../hooks/use-input";
 
+/**
+ * Job form - component for rendering all form input fields
+ * @param props - onAddData
+ * @returns {JSX}
+ */
 const JobForm = (props) => {
   const {
     value: enteredName,
@@ -76,6 +81,10 @@ const JobForm = (props) => {
     formIsValid = true;
   }
 
+  /**
+   * Handles user data after Submit button is clicked and resets the input fields
+   * @param event
+   */
   const formSubmissionHandler = (event) => {
     event.preventDefault();
 

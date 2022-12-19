@@ -1,7 +1,16 @@
 import Logo from "./components/Logo";
 import JobForm from "./components/JobForm";
 
-function App() {
+/**
+ * App - the main component
+ * @returns {JSX}
+ */
+const App = () => {
+  /**
+   * Handles entered user data when the Submit button is clicked
+   * Sends the data to Firebase
+   * @param {object} data
+   */
   async function addDataHandler(data) {
     console.log(data);
     const response = await fetch(
@@ -24,6 +33,6 @@ function App() {
       <JobForm onAddData={addDataHandler} />
     </div>
   );
-}
+};
 
 export default App;
