@@ -233,9 +233,7 @@ const JobForm = (props) => {
         <textarea
           id="description"
           name="description"
-          placeholder="I'm a highly motivated Front-End Developer driven by desire to always learn new ways in codding.
-          Coming out of Software University I have a great foundation of knowledge and skills.
-          I will be really happy to be part of your team and help you achieve even more business goals."
+          placeholder="I'm a highly motivated Front-End Developer driven by desire to always learn new ways in codding."
           rows="6"
           onChange={descriptionChangeHandler}
           onBlur={descriptionBlurHandler}
