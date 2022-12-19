@@ -1,5 +1,9 @@
 import { useState } from "react";
 
+/**
+ * Custom hook for validating the input, setting the values and resetting the form after submition
+ * @param validateValue
+ */
 const useInput = (validateValue) => {
   const [enteredValue, setEnteredValue] = useState("");
   const [isTouched, setIsTouched] = useState(false);
