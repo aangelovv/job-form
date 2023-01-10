@@ -69,9 +69,9 @@ body {
 
 button {
   font-size: 1.2rem;
-  background-color: #ec5720;
+  background-color: #024fa3;
   color: white;
-  border: 1px solid #ec5720;
+  border: 1px solid #024fa3;
   padding: 0.5rem 1.5rem;
   border-radius: 16px;
   cursor: pointer;
@@ -80,8 +80,8 @@ button {
 
 button:hover,
 button:active {
-  background-color: #b34a24;
-  border-color: #b34a24;
+  background-color: #023974;
+  border-color: #023974;
 }
 
 button:disabled,
@@ -127,13 +127,18 @@ button:disabled:active {
 }
 
 .logo h1 span {
-  color: #ec5720;
+  color: #024fa3;
   font-size: 1.8rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
-.christmas-logo {
+.img-logo {
+  width: 20rem;
+  margin: 1rem 0rem 0.5rem;
+}
+
+.best-company-logo {
   position: absolute;
   width: 10rem;
   top: -6%;
@@ -144,12 +149,12 @@ button:disabled:active {
 .hat {
   position: absolute;
   width: 6rem;
-  top: -6%;
-  left: -4%;
+  top: -7%;
+  left: -3%;
 }
 
 .logo p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   width: 74%;
   margin-bottom: 1rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
